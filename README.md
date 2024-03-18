@@ -56,7 +56,7 @@ and which have not been updated in the last hour.
 ## Example API Interaction
 
 ```
-GET https://shows-remote-api.com/
+GET https://shows-remote-api.com
 ```
 
 Response:
