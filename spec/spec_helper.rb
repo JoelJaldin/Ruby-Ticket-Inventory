@@ -2,6 +2,8 @@ require "rubygems"
 require "bundler"
 require "active_record"
 require "vcr"
+require 'webmock/rspec'
+WebMock.disable_net_connect!(allow_localhost: true, allow: 'shows-remote-api.com')
 
 Bundler.require(:default, :development, :test)
 
